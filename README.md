@@ -1,4 +1,15 @@
-# React + Vite
+# Image Visualizer
+A simple app to play around with Canvas API
+
+To run:
+`npm install`
+
+then
+`npm run dev`
+
+The app should be available at http://localhost:5173/
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
