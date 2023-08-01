@@ -1,13 +1,9 @@
 # Image Visualizer
 A simple app to play around with Canvas API
 
-First, install packages:
-
-`npm install`
-
-Then run locally:
-
-`npm run dev`
+To run:
+- `npm install`
+- `npm run dev`
 
 The app should be available at http://localhost:5173/
 
