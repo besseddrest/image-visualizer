@@ -1,15 +1,10 @@
-h1 {
-  background: black;
-  color: goldenrod;
-}
-
 .container {
   position: relative;
   background: url("../assets/images/dan-meyers-low.jpg");
   background-size: cover;
   background-position: center;
-  width: clamp(900px, 100vw, 1280px);
-  height: clamp(606px, 100vh, 862px); // the ratio of height/width of source image
+  width: 1152px;
+  height: 776px;
 }
 
 .controls {
@@ -24,6 +19,17 @@ h1 {
   width: 200px;
   height: 100px;
 }
+
+.canvas {
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+
+  &.loaded {
+    opacity: 1;
+  }
+}
+
+
 
 .hidden {
   display: none;
